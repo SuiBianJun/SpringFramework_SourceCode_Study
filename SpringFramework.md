@@ -10,7 +10,7 @@
 
 ## 二、spring 环境（上下文）初始化
 
-## 1、spring环境初始换相关类
+## 1、spring环境初始化相关类
 
 ![spring环境初始化](E:\Typero_workspace\spring\pic\Snipaste_2020-01-18_21-09-19.png)
 
@@ -29,6 +29,15 @@
   ```
 
 - ```java
-  // 文件系统中加载配置
+  // 文件系统中加载配置(不常用)
   FileSystemXmlApplicationContext fsac = new FileSystemXmlApplicationContext();
   ```
+
+## 3、Bean初始化
+
+- 读取bean，解析bean，实例化bean，将bean注册到spring环境中
+
+- BeanFactory实现类
+
+  ![DefaultListableBeanFactory](E:\Typero_workspace\spring\pic\Snipaste_2020-01-18_22-26-10.png)
+
